@@ -103,7 +103,7 @@ public class PlayingState : GameState
             score++;
         }
         yield return new WaitForSeconds(0.5f);
-        string message = currentAnswer == selectedAnswer ? "Goool!!!" : "La volo!!!";
+        string message = currentAnswer == selectedAnswer ? "Goool!!!" : "Fallaste!!!";
         textAnimator.displayAnimation(message);
         yield return new WaitForSeconds(1.5f);
         ShowQuestion();
