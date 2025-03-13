@@ -15,30 +15,6 @@ public class GoalKeeperController : MonoBehaviour
 
     void Update()
     {
-        // Detectar entrada a animaciones de Dive
-        /*if (!isDiving)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                StartDive("DiveUpperRight");
-            }
-            else if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                StartDive("DiveRight");
-            }
-            else if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Alpha4))
-            {
-                StartDive("JumpHitRight");
-            }
-            else if (Input.GetKeyDown(KeyCode.Alpha5))
-            {
-                StartDive("DiveUpperLeft");
-            }
-            else if (Input.GetKeyDown(KeyCode.Alpha6))
-            {
-                StartDive("DiveLeft");
-            }
-        }
 
         // Detectar si la animación terminó*/
         CheckAnimationEnd();

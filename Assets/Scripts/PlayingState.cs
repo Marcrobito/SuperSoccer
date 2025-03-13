@@ -25,7 +25,7 @@ public class PlayingState : GameState
     private int currentQuestion = 0;
     private int questionsGuessed = 0;
 
-    private string[] diveAnimations = { "DiveUpperRight", "DiveRight", "JumpHitRight", "JumpHitRight", "DiveUpperLeft", "DiveLeft" };
+    private string[] diveAnimations = { "DiveUpperRight", "JumpHitRight", "DiveUpperLeft", "DiveRight",  "JumpHitRight",  "DiveLeft" };
 
     private bool isPlayable = false;
 
