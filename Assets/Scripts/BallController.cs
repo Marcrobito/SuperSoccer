@@ -50,7 +50,7 @@ public class BallController : MonoBehaviour
 
         // Reiniciar posición y detener movimiento previo
         ball.transform.position = ballStartingPosition;
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
         // Seleccionar el objetivo correcto
@@ -70,10 +70,10 @@ public class BallController : MonoBehaviour
         // Si la pelota choca con algo, aplicar un rebote extra
         if (rb != null && ballShoot)
         {
-            Vector3 bounceDirection = Vector3.Reflect(rb.velocity.normalized, collision.contacts[0].normal);
+            Vector3 bounceDirection = Vector3.Reflect(rb.linearVelocity.normalized, collision.contacts[0].normal);
             bounceDirection.y = Mathf.Abs(bounceDirection.y); // Asegurar que rebote hacia arriba si es necesario
 
-            rb.velocity = Vector3.zero; // Detener la velocidad actual para evitar acumulación de física
+            rb.linearVelocity = Vector3.zero; // Detener la velocidad actual para evitar acumulación de física
             rb.AddForce(bounceDirection * BounceForce, ForceMode.Impulse);
 
             Debug.Log("Pelota rebotó con fuerza extra: " + BounceForce);
@@ -105,7 +105,7 @@ public class BallController : MonoBehaviour
         ball.transform.position = ballStartingPosition;
 
         // Detener cualquier movimiento previo
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
         // Opcional: Resetear la rotación

@@ -1,0 +1,9 @@
+﻿Unity Packages Usage Report (20251030_131205)
+Declared packages: 40
+Likely unused (no references found):
+  - com.unity.ads
+  - com.unity.analytics
+  - com.unity.collab-proxy
+  - com.unity.purchasing
+  - com.unity.timeline
+  - com.unity.visualscripting

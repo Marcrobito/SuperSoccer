@@ -1,0 +1,109 @@
+﻿Unity Unused Assets Report (20251030_131205)
+Build Scenes:
+  - Assets/Scenes/Game.unity
+  - Assets/Scenes/Intro.unity
+
+Unused asset count: 282
+Total potential bytes: 57,406,368
+
+Top 100 by size:
+  24,870,051  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Textures/intro.mp4
+   8,281,652  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Sounds/424228__jeanpaul477__soccer-game.aiff
+   5,753,038  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Stadium/Textures/Stadium/grass.jpg
+   1,230,464  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/animo/AA_Soccer_Goalkeeper/Model/Robot.FBX
+     786,488  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Ball/Textures/Ball/soccer texture.bmp
+     739,732  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn09.unity
+     497,209  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn05.unity
+     496,388  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn07.unity
+     495,461  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo09.unity
+     494,708  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn15.unity
+     492,596  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn04.unity
+     485,751  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Characters/Players/Player001/Textures/limbs.png
+     482,546  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+     376,183  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn06.unity
+     375,614  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn01.unity
+     375,591  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn02.unity
+     375,416  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn12.unity
+     374,531  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo05.unity
+     374,167  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn11.unity
+     373,706  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn14.unity
+     373,465  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn08.unity
+     372,828  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn03.unity
+     371,880  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo04.unity
+     286,057  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+     273,488  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+     267,819  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo01.unity
+     258,684  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo07.unity
+     254,625  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo12.unity
+     253,867  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn13.unity
+     253,425  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo11.unity
+     252,796  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo14.unity
+     252,708  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo08.unity
+     252,250  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo15.unity
+     252,065  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo03.unity
+     235,032  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Textures/Entities/GoalKeeper/BrownEyes.png
+     216,043  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Characters/Players/Player001/Textures/eye.png
+     216,026  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Characters/Players/Player001/Textures/kit.png
+     211,019  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/animo/AA_Soccer_Goalkeeper/Demo.unity
+     199,757  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Prefabs/CanvasSceneSelect.prefab
+     178,491  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+     170,760  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+     161,475  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Images/sky.png
+     155,648  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+     150,089  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+     141,207  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Logo/Textures/samplelogo2.png
+     133,726  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo10.unity
+     133,155  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo13.unity
+     132,403  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/LogoFadeIn10.unity
+     131,920  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo06.unity
+     131,792  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Logo02.unity
+     126,976  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+     122,265  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Textures/lightning_2x2.png
+     121,218  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Characters/Players/Player001/Textures/head.jpg
+     112,319  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Sprites/EmojiOne.png
+     100,427  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+      97,482  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Sounds/Barça goal 04-2006.mp3
+      95,326  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+      73,526  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/animo/AA_Soccer_Goalkeeper/Prefabs/Robot.prefab
+      73,353  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+      73,290  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Textures/waterdrops3x3.png
+      73,060  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+      71,537  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+      65,140  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+      64,432  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Goal/UVLayouts/WoodWork.png
+      55,679  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Characters/Players/Player001/Textures/boots.png
+      53,056  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+      50,568  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Logo/Textures/samplelogo.png
+      49,290  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+      48,985  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Goal/UVLayouts/Net.png
+      42,376  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+      40,421  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Characters/Players/Player001/Textures/gloves.png
+      39,676  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+      38,488  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+      37,977  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Textures/Entities/GoalKeeper/Kit.png
+      34,433  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+      33,155  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+      33,064  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+      32,696  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+      31,338  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
+      30,816  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Ball/Meshes/Ball/soccer_ball.fbx
+      29,565  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+      28,175  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+      27,733  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Textures/Entities/GoalKeeper/Blue.png
+      27,575  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+      26,169  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+      25,921  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/SuperGoalie/Meshes/Goal/Textures/Soccer Net.png
+      25,492  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+      25,305  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+      22,877  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+      20,339  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+      19,873  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+      19,831  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+      18,096  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Gameleon_SportPack/Textures/TEX_BG.png
+      17,873  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Textures/sphereglow.png
+      17,450  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+      17,422  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+      17,200  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+      16,434  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+      15,881  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+      15,456  C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity

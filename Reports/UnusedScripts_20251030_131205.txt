@@ -1,0 +1,41 @@
+﻿Unity Unused Scripts Report (20251030_131205)
+Used by scenes/prefabs: 11
+Used only by code: 5
+Unused candidates: 35
+
+Unused scripts:
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Particle Logo FX/Scenes/Scripts/LogoSceneSelect.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Scripts/ImageSwitcher.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/Scripts/VideoManager.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  - C:/Users/marco/OneDrive/Documentos/work/CorePark/SuperSoccer/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
