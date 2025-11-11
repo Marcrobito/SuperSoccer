@@ -63,6 +63,15 @@ public class GameManager : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Saliendo del juego...");
+#if UNITY_EDITOR
+        // En el Editor, Application.Quit() no cierra; detenemos Play Mode
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif UNITY_WEBGL
+        // En WebGL, Application.Quit() es ignorado por el navegador
+        Debug.Log("[QuitGame] WebGL no soporta salir del app. Cierra la pestaña/ventana.");
         Application.Quit();
+#else
+        Application.Quit();
+#endif
     }
 }

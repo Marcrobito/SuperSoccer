@@ -34,6 +34,8 @@ public class BannerManager : MonoBehaviour
                 Texture2D tex = new Texture2D(2, 2);
                 if (tex.LoadImage(data))
                 {
+                    tex.wrapMode = TextureWrapMode.Clamp;
+                    tex.filterMode = FilterMode.Bilinear;
                     loadedTextures.Add(tex);
                 }
             }
