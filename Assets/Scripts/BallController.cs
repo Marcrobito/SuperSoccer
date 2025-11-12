@@ -48,13 +48,25 @@ public class BallController : MonoBehaviour
             return;
         }
 
+        if (!IsValidTargetIndex(position))
+        {
+            Debug.LogError($"No hay objetivos configurados para la opción {position}. Revisa goalTargets/missingTargets.");
+            return;
+        }
+
         // Reiniciar posición y detener movimiento previo
         ball.transform.position = ballStartingPosition;
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
         // Seleccionar el objetivo correcto
-        Transform target = isGoal ? goalTargets[position].transform : missingTargets[position].transform;
+        GameObject targetObject = isGoal ? goalTargets[position] : missingTargets[position];
+        if (targetObject == null)
+        {
+            Debug.LogError($"El target {(isGoal ? "goal" : "miss")} en la posición {position} no está asignado.");
+            return;
+        }
+        Transform target = targetObject.transform;
 
         // Calcular dirección del disparo
         Vector3 shootDirection = (target.position - ball.transform.position).normalized;
@@ -112,5 +124,37 @@ public class BallController : MonoBehaviour
         ball.transform.rotation = Quaternion.identity;
 
         ballShoot = false; // Resetear estado del disparo
+    }
+
+    public bool HasTargetsForOptions(int requiredOptions)
+    {
+        if (goalTargets == null || missingTargets == null)
+        {
+            Debug.LogError("Los arreglos de target no están asignados en BallController.");
+            return false;
+        }
+
+        if (goalTargets.Length < requiredOptions || missingTargets.Length < requiredOptions)
+        {
+            Debug.LogError($"Se requieren {requiredOptions} targets configurados para cada tipo (goal/miss).");
+            return false;
+        }
+
+        for (int i = 0; i < requiredOptions; i++)
+        {
+            if (goalTargets[i] == null || missingTargets[i] == null)
+            {
+                Debug.LogError($"El target en la posición {i} no está asignado correctamente.");
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private bool IsValidTargetIndex(int index)
+    {
+        return goalTargets != null && missingTargets != null &&
+               index >= 0 && index < goalTargets.Length && index < missingTargets.Length;
     }
 }
