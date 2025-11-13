@@ -38,9 +38,7 @@ public class PlayingState : GameState
 
     private const int OptionsPerQuestion = 6;
     private List<Question> questions;
-    private int totalQuestions = 3;
     private int currentQuestion = 0;
-    private int questionsGuessed = 0;
 
     private string[] diveAnimations =
     {
@@ -78,7 +76,6 @@ public class PlayingState : GameState
             yield break;
         }
 
-        questionsGuessed = 0;
         currentQuestion = 0;
         score = 0;
         questions = jsonLoader.LoadQuestionsFromJSON();
@@ -112,7 +109,7 @@ public class PlayingState : GameState
 
     private void ShowQuestion()
     {
-        if (currentQuestion >= questions.Count || currentQuestion >= totalQuestions)
+        if (currentQuestion >= questions.Count)
         {
             OnStateCompleted?.Invoke(score);
             return;

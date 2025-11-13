@@ -7,7 +7,8 @@ public class JSONLoader : MonoBehaviour
 {
     [SerializeField] private string relativeFolder = "Soccer";
     [SerializeField] private string fileName = "questions.json";
-    [SerializeField] [Min(1)] private int questionsPerSession = 10;
+    [SerializeField] private ConfigLoader configLoader;
+    [SerializeField] [Min(1)] private int fallbackQuestionsPerSession = 3;
 
     // Función para cargar y parsear el JSON
     public List<Question> LoadQuestionsFromJSON()
@@ -23,8 +24,23 @@ public class JSONLoader : MonoBehaviour
         ShuffleAnswers(questions);
         ShuffleQuestions(questions);
 
-        int takeCount = Mathf.Min(questionsPerSession, questions.Count);
+        int configuredCount = GetConfiguredQuestionCount();
+        int takeCount = Mathf.Min(configuredCount, questions.Count);
         return questions.GetRange(0, takeCount);
+    }
+
+    private int GetConfiguredQuestionCount()
+    {
+        if (configLoader != null)
+        {
+            GameConfig config = configLoader.CurrentConfig;
+            if (config != null && config.questionSettings != null)
+            {
+                return Mathf.Max(1, config.questionSettings.questionsPerSession);
+            }
+        }
+
+        return Mathf.Max(1, fallbackQuestionsPerSession);
     }
 
     private List<Question> TryLoadFromDisk()
